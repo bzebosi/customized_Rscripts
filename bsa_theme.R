@@ -1,4 +1,4 @@
-thesis_theme <- function{(base_size=30)
+thesis_theme <- function(base_size=30){
 require(grid)
 theme_linedraw(base_size = base_size) + 
   theme(axis.text.x = element_blank(),
